@@ -6,7 +6,8 @@
     "authors": [
         {
             "name": "Trung Ta",
-            "email": "hi@trung.me"
+            "email": "hi@trung.me",
+            "homepage": "https://trung.me"
         }
     ],
     "minimum-stability": "dev",
