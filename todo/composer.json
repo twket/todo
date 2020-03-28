@@ -1,0 +1,29 @@
+{
+    "name": "twket/todo",
+    "description": "A todo list demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trung Ta",
+            "email": "hi@trung.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Twket\\Todo\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+              "providers": [
+                  "Twket\\Todo\\Providers\\TodoServiceProvider"
+              ]
+        }
+    }
+}
